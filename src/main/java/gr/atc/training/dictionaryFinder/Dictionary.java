@@ -76,7 +76,7 @@ public class Dictionary {
 		return;
 	}
 	
-	public void print_N_random_words(int N) {
+	public void printrandomwords(int N) {
 		Random rand = new Random();
 		System.out.println("Printing " + N + " random words from the dictionary:");
 		for (int i=0; i<N; i++) {

@@ -4,7 +4,7 @@ public class App {
 	public static void main(String[] args) {
 		Dictionary dict = new Dictionary("english3.txt");
 		
-		/*
+		
 		int count = dict.getWordCount(null, "ab", 0);
 		count = dict.getWordCount(null, "is", 0);
 		count = dict.getWordCount("ab", null, 5);
@@ -29,11 +29,11 @@ public class App {
 		count = dict.getWordCount("pu", "rd", 0);
 
 		System.out.println("Count: " + count);
-		System.out.println("CountWord " + countWord);
+		//System.out.println("CountWord " + countWord);
 		
-		*/
+		
 		
 		//dict.getSpellingCheck("text.txt");
-		dict.print_N_random_words(7);
+		dict.printrandomwords(7);
 	}
 }
