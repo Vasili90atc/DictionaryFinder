@@ -1,4 +1,4 @@
-package gr.atc.training.dictionaryFinder;
+package gr.atc.training.randomText;
 
 import java.io.BufferedReader;
 import java.io.File;

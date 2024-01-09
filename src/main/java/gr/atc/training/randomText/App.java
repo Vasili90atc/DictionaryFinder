@@ -1,4 +1,4 @@
-package gr.atc.training.dictionaryFinder;
+package gr.atc.training.randomText;
 
 public class App {
 	public static void main(String[] args) {
